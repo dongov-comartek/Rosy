@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rosy.features.SmokeTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2020-06-02T03:07:39" hostname="DESKTOP-TGIU5J9" time="183.284">
+  <properties/>
+  <testcase name="show_home_screen_after_logged_in_with_rosy_account" classname="rosy.features.SmokeTest" time="183.284">
+    <failure message="java.lang.AssertionError: &#10;Expected: &lt;true&gt;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: &lt;true&gt;
+     but: was &lt;false&gt;
+	at rosy.features.SmokeTest.show_home_screen_after_logged_in_with_rosy_account(SmokeTest.java:56)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Jun 02, 2020 10:07:58 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>

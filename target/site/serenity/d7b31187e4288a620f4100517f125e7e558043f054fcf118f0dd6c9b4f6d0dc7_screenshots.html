@@ -1,0 +1,341 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Rosy Automation Test Scripts</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="e59d19d7aff8a5aa44743ae2ae0a29e97f518d5cb9f81ed88323b46fc4d3d49d.html">Smoke Test</a></span>
+                > <span class="truncate-60"><a
+                    href="d7b31187e4288a620f4100517f125e7e558043f054fcf118f0dd6c9b4f6d0dc7.html">Show home screen after logged in with rosy account </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html"><i class="fa fa-comments-o"></i> Stories</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 02-06-2020 14:43</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Smoke Test </span>
+                                    <span class="badge tag-badge" style="">Story</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="failing-color">Show home screen after logged in with rosy account
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Assertion error: Expected: an element that is visible but: no matching element found by xpath: //*[@text='a few seconds ago']</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.lang.AssertionError </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>rosy.tasks.SaveStory.performAs(SaveStory.java:20)<br />rosy.features.SmokeTest.show_home_screen_after_logged_in_with_rosy_account(SmokeTest.java:156)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource8848748132678785958.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="c5fefb8f315b8e632b43e8e04953c429fa3780f661372b8aecbbc63190cedb1d.png" title=" Open login screen" width="1440"/>
+                <img src="e70973266f1928a0f1aa3b9654a57640aa2cd4c35bac4eaf8657f6220c95d1f2.png" title=" The User clicks on login button" width="1440"/>
+                <img src="674cf880db21f3f613b2d57b6f76876c44174d9ebc36dd03a60ce1aca6638492.png" title=" The User clicks on login button (completed)" width="1440"/>
+                <img src="674cf880db21f3f613b2d57b6f76876c44174d9ebc36dd03a60ce1aca6638492.png" title=" Open login screen (completed)" width="1440"/>
+                <img src="d58f6588c76d0a7c89cd31d5e703c306909f2b67c6341d3588d5e1492fdab60e.png" title=" The user login" width="1440"/>
+                <img src="d58f6588c76d0a7c89cd31d5e703c306909f2b67c6341d3588d5e1492fdab60e.png" title=" The User enters 'auto2@rosy.com' into Email field" width="1440"/>
+                <img src="8966e215201556dd30d6b93ba9352c806739eef837e1aae5148966d24a33fb3d.png" title=" The User enters 'auto2@rosy.com' into Email field (completed)" width="1440"/>
+                <img src="8966e215201556dd30d6b93ba9352c806739eef837e1aae5148966d24a33fb3d.png" title=" The user press" width="1440"/>
+                <img src="8966e215201556dd30d6b93ba9352c806739eef837e1aae5148966d24a33fb3d.png" title=" The user press (completed)" width="1440"/>
+                <img src="0bbe63d1f7c1e3adf80e02a922cf22119d28be79d3337a606f0938c7c090c928.png" title=" The user press" width="1440"/>
+                <img src="06fdcfbed102fa7c0b7b75695d218e75fdff38dd5626e10f010bbbf3200dc005.png" title=" The user press (completed)" width="1440"/>
+                <img src="06fdcfbed102fa7c0b7b75695d218e75fdff38dd5626e10f010bbbf3200dc005.png" title=" The user press" width="1440"/>
+                <img src="06fdcfbed102fa7c0b7b75695d218e75fdff38dd5626e10f010bbbf3200dc005.png" title=" The user press (completed)" width="1440"/>
+                <img src="06fdcfbed102fa7c0b7b75695d218e75fdff38dd5626e10f010bbbf3200dc005.png" title=" The user press" width="1440"/>
+                <img src="deb942e3d668e1f122e6b88159dcc639985a35ee7029d1b1d75612a2b4e52f9f.png" title=" The user press (completed)" width="1440"/>
+                <img src="deb942e3d668e1f122e6b88159dcc639985a35ee7029d1b1d75612a2b4e52f9f.png" title=" The user press" width="1440"/>
+                <img src="deb942e3d668e1f122e6b88159dcc639985a35ee7029d1b1d75612a2b4e52f9f.png" title=" The user press (completed)" width="1440"/>
+                <img src="deb942e3d668e1f122e6b88159dcc639985a35ee7029d1b1d75612a2b4e52f9f.png" title=" The user press" width="1440"/>
+                <img src="eae7975670a1fefd54df1f3d5cb4ff1a6a32ed826e80424162e5351c7ca30f61.png" title=" The user press (completed)" width="1440"/>
+                <img src="eae7975670a1fefd54df1f3d5cb4ff1a6a32ed826e80424162e5351c7ca30f61.png" title=" The user login (completed)" width="1440"/>
+                <img src="2ee0b90c3d01701100a7c8ab2d9ef923f411de392716aab328308117971af8bc.png" title=" Then successfull login should be (true)" width="1440"/>
+                <img src="6661df6806135fd8a1175576bb54255aa4d7a5b3cd43f9238ddeb7d0cd25f79a.png" title=" Then successfull login should be (true) (completed)" width="1440"/>
+                <img src="89a9859370c088263f67f7294dfab0cc2bab0b891167dc5654ecebc2ae3d286d.png" title=" The User wait " width="1440"/>
+                <img src="89a9859370c088263f67f7294dfab0cc2bab0b891167dc5654ecebc2ae3d286d.png" title=" The user navigate" width="1440"/>
+                <img src="89a9859370c088263f67f7294dfab0cc2bab0b891167dc5654ecebc2ae3d286d.png" title=" The User clicks on Show navigation button" width="1440"/>
+                <img src="89a9859370c088263f67f7294dfab0cc2bab0b891167dc5654ecebc2ae3d286d.png" title=" The user navigate (completed)" width="1440"/>
+                <img src="0891f6ab279703b684108a0c1b16c96bd769d799d0a7589ae156b6b26e6df52d.png" title=" Then check navigation should be (true)" width="1440"/>
+                <img src="0891f6ab279703b684108a0c1b16c96bd769d799d0a7589ae156b6b26e6df52d.png" title=" The User wait " width="1440"/>
+                <img src="0891f6ab279703b684108a0c1b16c96bd769d799d0a7589ae156b6b26e6df52d.png" title=" The user navigate" width="1440"/>
+                <img src="0891f6ab279703b684108a0c1b16c96bd769d799d0a7589ae156b6b26e6df52d.png" title=" The User clicks on Hide navigation button" width="1440"/>
+                <img src="0891f6ab279703b684108a0c1b16c96bd769d799d0a7589ae156b6b26e6df52d.png" title=" The user navigate (completed)" width="1440"/>
+                <img src="9f4fdeaa387ccce69634a2501fb7350c2e96eba394db62b1d6637e6acbb6a88a.png" title=" Then check navigation should be (false)" width="1440"/>
+                <img src="9f4fdeaa387ccce69634a2501fb7350c2e96eba394db62b1d6637e6acbb6a88a.png" title=" The user open vault" width="1440"/>
+                <img src="9f4fdeaa387ccce69634a2501fb7350c2e96eba394db62b1d6637e6acbb6a88a.png" title=" The User clicks on Vault button on navigation" width="1440"/>
+                <img src="9f4fdeaa387ccce69634a2501fb7350c2e96eba394db62b1d6637e6acbb6a88a.png" title=" The user open vault (completed)" width="1440"/>
+                <img src="a39a61fcbec4e6ed68283af559f3a86f954e280f4742553346ccf207868bf053.png" title=" Then searched vault summary should be 'Photos'" width="1440"/>
+                <img src="4cbe6a88c962136294b7da8af68b169983988f7c6ffa27c8f85614efda7b41bf.png" title=" The user filter vault" width="1440"/>
+                <img src="4cbe6a88c962136294b7da8af68b169983988f7c6ffa27c8f85614efda7b41bf.png" title=" The User wait " width="1440"/>
+                <img src="4cbe6a88c962136294b7da8af68b169983988f7c6ffa27c8f85614efda7b41bf.png" title=" The User wait  (completed)" width="1440"/>
+                <img src="4cbe6a88c962136294b7da8af68b169983988f7c6ffa27c8f85614efda7b41bf.png" title=" The User clicks on Filter with Photos" width="1440"/>
+                <img src="a1996cbc7649eb958fb9b4d6e43c1e32fc9c5994876b708b34cf1653410b8572.png" title=" The User clicks on Filter with Photos (completed)" width="1440"/>
+                <img src="461245f2506b312d5d273f518db442527b7d692d104ffb6e323fc363bc03de0a.png" title=" The user filter vault (completed)" width="1440"/>
+                <img src="461245f2506b312d5d273f518db442527b7d692d104ffb6e323fc363bc03de0a.png" title=" The user open search" width="1440"/>
+                <img src="461245f2506b312d5d273f518db442527b7d692d104ffb6e323fc363bc03de0a.png" title=" The User clicks on Search Vault" width="1440"/>
+                <img src="461245f2506b312d5d273f518db442527b7d692d104ffb6e323fc363bc03de0a.png" title=" The user open search (completed)" width="1440"/>
+                <img src="a4807617f1740a88de5b9a02998c8f88ee54686b8cae785f4c7f73871a465d4a.png" title=" Then check open search should be 'Search Vault'" width="1440"/>
+                <img src="faa62c251cf390c59b4c11a0aae7afd0efcb4572d2be80b11f1e51136316a3b7.png" title=" The user search vault" width="1440"/>
+                <img src="faa62c251cf390c59b4c11a0aae7afd0efcb4572d2be80b11f1e51136316a3b7.png" title=" The User enters 'tree' into Enter keywork" width="1440"/>
+                <img src="faa62c251cf390c59b4c11a0aae7afd0efcb4572d2be80b11f1e51136316a3b7.png" title=" The User clicks on Enter keywork" width="1440"/>
+                <img src="8d03f6edffa21772bb43bbef79cca4a9ec0842e96aa4b9bc091a7d3218f0e502.png" title=" The User clicks on Enter keywork (completed)" width="1440"/>
+                <img src="8d03f6edffa21772bb43bbef79cca4a9ec0842e96aa4b9bc091a7d3218f0e502.png" title=" The user press" width="1440"/>
+                <img src="faa62c251cf390c59b4c11a0aae7afd0efcb4572d2be80b11f1e51136316a3b7.png" title=" The user press (completed)" width="1440"/>
+                <img src="faa62c251cf390c59b4c11a0aae7afd0efcb4572d2be80b11f1e51136316a3b7.png" title=" The user search vault (completed)" width="1440"/>
+                <img src="461245f2506b312d5d273f518db442527b7d692d104ffb6e323fc363bc03de0a.png" title=" The user cancel search" width="1440"/>
+                <img src="461245f2506b312d5d273f518db442527b7d692d104ffb6e323fc363bc03de0a.png" title=" The User clicks on Cancel search" width="1440"/>
+                <img src="461245f2506b312d5d273f518db442527b7d692d104ffb6e323fc363bc03de0a.png" title=" The user cancel search (completed)" width="1440"/>
+                <img src="461245f2506b312d5d273f518db442527b7d692d104ffb6e323fc363bc03de0a.png" title=" Then check cancel search should be 'What can I help you find?'" width="1440"/>
+                <img src="461245f2506b312d5d273f518db442527b7d692d104ffb6e323fc363bc03de0a.png" title=" The user add vault image" width="1440"/>
+                <img src="461245f2506b312d5d273f518db442527b7d692d104ffb6e323fc363bc03de0a.png" title=" The User clicks on Add Vault button" width="1440"/>
+                <img src="347a2f258c634f1612cf17459d7d72c8093c95e4a9659ce3c07a4b07e1c1a1e6.png" title=" The User clicks on Enable access to picture button" width="1440"/>
+                <img src="347a2f258c634f1612cf17459d7d72c8093c95e4a9659ce3c07a4b07e1c1a1e6.png" title=" The User clicks on Allow button" width="1440"/>
+                <img src="3c39bbc0de6ee248c44f01785c712c396a8d1c880e1148f6e51e59524f3e8099.png" title=" The User clicks on Allow button (completed)" width="1440"/>
+                <img src="3c39bbc0de6ee248c44f01785c712c396a8d1c880e1148f6e51e59524f3e8099.png" title=" The user choose picture" width="1440"/>
+                <img src="bf55b233bb005d463e06f743061c7648574a00022edee0c7385ee839c7a8e243.png" title=" The user choose picture (completed)" width="1440"/>
+                <img src="bf55b233bb005d463e06f743061c7648574a00022edee0c7385ee839c7a8e243.png" title=" The User clicks on Upload button" width="1440"/>
+                <img src="dba43efee8b4278aaa10ead24bd742512a43ad94d80883e7b6408304b9ffb2c1.png" title=" The User clicks on Upload button (completed)" width="1440"/>
+                <img src="a70f5348b0feb8bd4b6545877dd940624b68a1ab11781e242c42e4ca564f12a3.png" title=" The user add vault image (completed)" width="1440"/>
+                <img src="a70f5348b0feb8bd4b6545877dd940624b68a1ab11781e242c42e4ca564f12a3.png" title=" Then after add vault screen should be 'Tap for new items'" width="1440"/>
+                <img src="a70f5348b0feb8bd4b6545877dd940624b68a1ab11781e242c42e4ca564f12a3.png" title=" The user back to home" width="1440"/>
+                <img src="a70f5348b0feb8bd4b6545877dd940624b68a1ab11781e242c42e4ca564f12a3.png" title=" The User clicks on Tap for new items" width="1440"/>
+                <img src="a8c4821e6ada104b5b840133bb6c2a12938d04cbcf4b59ce4d46f8667c92e44d.png" title=" The user back to home (completed)" width="1440"/>
+                <img src="7e5c7d49d1cd5a603ad15a06f6e6d8a9dc01827b5152de1f04a0c7e96b184526.png" title=" The user view vault" width="1440"/>
+                <img src="7e5c7d49d1cd5a603ad15a06f6e6d8a9dc01827b5152de1f04a0c7e96b184526.png" title=" The User clicks on [[io.appium.java_client.android.AndroidDriver, Capabilities: {app=E:\AutoTest\Rosy\Rosy-app-releaseDev.apk, appPackage=com.demorosyv2.dev, automationName=uiautomator2, databaseEnabled=false, desired={platformName=android, hub=http://localhost:4723/wd/hub, loggingPrefs={}, app=E:\AutoTest\Rosy\Rosy-app-releaseDev.apk, automationName=uiautomator2, deviceName=192.168.105.103:5555, newCommandTimeout=3000, platformVersion=8.1}, deviceApiLevel=27, deviceManufacturer=unknown, deviceModel=Samsung Galaxy S8, deviceName=192.168.105.103:5555, deviceScreenDensity=480, deviceScreenSize=1440x2960, deviceUDID=192.168.105.103:5555, hub=http://localhost:4723/wd/hub, javascriptEnabled=true, locationContextEnabled=false, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@0, networkConnectionEnabled=true, newCommandTimeout=3000, pixelRatio=3, platform=LINUX, platformName=Android, platformVersion=8.1.0, statBarHeight=72, takesScreenshot=true, viewportRect={left=0, top=72, width=1440, height=2744}, warnings={}, webStorageEnabled=false}] -&gt; xpath: //*[@content-desc=&quot;vault-items&quot;]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup]" width="1440"/>
+                <img src="7d8107fe71ce1b286bc224e8e0135079d22f5615e58f3ff6c7634967e7e4f979.png" title=" The User clicks on [[io.appium.java_client.android.AndroidDriver, Capabilities: {app=E:\AutoTest\Rosy\Rosy-app-releaseDev.apk, appPackage=com.demorosyv2.dev, automationName=uiautomator2, databaseEnabled=false, desired={platformName=android, hub=http://localhost:4723/wd/hub, loggingPrefs={}, app=E:\AutoTest\Rosy\Rosy-app-releaseDev.apk, automationName=uiautomator2, deviceName=192.168.105.103:5555, newCommandTimeout=3000, platformVersion=8.1}, deviceApiLevel=27, deviceManufacturer=unknown, deviceModel=Samsung Galaxy S8, deviceName=192.168.105.103:5555, deviceScreenDensity=480, deviceScreenSize=1440x2960, deviceUDID=192.168.105.103:5555, hub=http://localhost:4723/wd/hub, javascriptEnabled=true, locationContextEnabled=false, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@0, networkConnectionEnabled=true, newCommandTimeout=3000, pixelRatio=3, platform=LINUX, platformName=Android, platformVersion=8.1.0, statBarHeight=72, takesScreenshot=true, viewportRect={left=0, top=72, width=1440, height=2744}, warnings={}, webStorageEnabled=false}] -&gt; xpath: //*[@content-desc=&quot;vault-items&quot;]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup] (completed)" width="1440"/>
+                <img src="7d8107fe71ce1b286bc224e8e0135079d22f5615e58f3ff6c7634967e7e4f979.png" title=" The user view vault (completed)" width="1440"/>
+                <img src="cb1741a2f90b74f747f8cfb1519529025f9675ef4681bac59ab2ac6d5500a268.png" title=" Then vault detail display should be 'Stories'" width="1440"/>
+                <img src="368b4ea0920af3fbbad684d0302afe3459966d7791483cd12996d08398d7294c.png" title=" The user add story video" width="1440"/>
+                <img src="368b4ea0920af3fbbad684d0302afe3459966d7791483cd12996d08398d7294c.png" title=" The User clicks on Add your story button" width="1440"/>
+                <img src="f22afd3ac5faf2fdb3a7b716f3b75092877f3545214238c096f9dcbd4c921301.png" title=" The User clicks on Add your story button (completed)" width="1440"/>
+                <img src="f22afd3ac5faf2fdb3a7b716f3b75092877f3545214238c096f9dcbd4c921301.png" title=" The User clicks on Enable Access" width="1440"/>
+                <img src="bf1c46b7148a0b2138ae7a769866651be28a47a67ac05a178b79fd4341ad3ecb.png" title=" The User clicks on Enable Access (completed)" width="1440"/>
+                <img src="bf1c46b7148a0b2138ae7a769866651be28a47a67ac05a178b79fd4341ad3ecb.png" title=" The User clicks on allow capture and record" width="1440"/>
+                <img src="eda932482ca603f9627de7286b803670efc2a0cca01de709cfce5e125ce750b8.png" title=" The User clicks on allow capture and record (completed)" width="1440"/>
+                <img src="eda932482ca603f9627de7286b803670efc2a0cca01de709cfce5e125ce750b8.png" title=" The User clicks on Enable Access" width="1440"/>
+                <img src="daa7ccccf6d36cfa55db6ca074015b1645e231a13fd431c6d6358e674fae7688.png" title=" The User clicks on Enable Access (completed)" width="1440"/>
+                <img src="daa7ccccf6d36cfa55db6ca074015b1645e231a13fd431c6d6358e674fae7688.png" title=" The User clicks on allow capture and record" width="1440"/>
+                <img src="dd4b707b730204c5c0e8d964bf24b2e250f8f9b62926ece7bc3c34d8a283993a.png" title=" The User clicks on allow capture and record (completed)" width="1440"/>
+                <img src="b1a832f9ba515f38ea3c5b3edd41d130f06e15f525e665741865f90f5f17cd6f.png" title=" The User clicks on start recording" width="1440"/>
+                <img src="63089a9944c6174606361f1df8912848d1fcf7d0bb4ab245aa4b00e16ab1e1f6.png" title=" The User clicks on start recording (completed)" width="1440"/>
+                <img src="63089a9944c6174606361f1df8912848d1fcf7d0bb4ab245aa4b00e16ab1e1f6.png" title=" The User wait " width="1440"/>
+                <img src="691d41749ac34a1b6cc89ce7ac078c29e51fb2facd70dd7f24ce1dbad65dc60a.png" title=" The User wait  (completed)" width="1440"/>
+                <img src="691d41749ac34a1b6cc89ce7ac078c29e51fb2facd70dd7f24ce1dbad65dc60a.png" title=" The User clicks on end recording" width="1440"/>
+                <img src="a53fe7c4eb556f10e1e40bdd6ce0b1269de2366e315c77c0f7f151d6a2df967b.png" title=" The User clicks on end recording (completed)" width="1440"/>
+                <img src="a53fe7c4eb556f10e1e40bdd6ce0b1269de2366e315c77c0f7f151d6a2df967b.png" title=" The user add story video (completed)" width="1440"/>
+                <img src="008588ba9c99e6c7a03c1d945b1310b1b3c2c98344c2a7001abc5c6280f2a4e4.png" title=" Then check start story should be 'Save'" width="1440"/>
+                <img src="f71b4cac5f5ee0cbaf89dc6c3092ac5b987f10e27f95392789daf7089c5ae2ef.png" title=" The user save story" width="1440"/>
+                <img src="f71b4cac5f5ee0cbaf89dc6c3092ac5b987f10e27f95392789daf7089c5ae2ef.png" title=" The User wait " width="1440"/>
+                <img src="f71b4cac5f5ee0cbaf89dc6c3092ac5b987f10e27f95392789daf7089c5ae2ef.png" title=" The User clicks on save recording" width="1440"/>
+                <img src="fa9bf5ae515a837f343a7f2059451769c1a5ac3fb7e24dc2c00d8d9a6d6db4c5.png" title=" The User clicks on save recording (completed)" width="1440"/>
+                <img src="cfc8914165a7c7587a889f2d639361b0c5751db340c01c4d9e7c195ad071299e.png" title=" The user save story (completed): <span class='failing-color'>FAILURE</span>" width="1440"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.81</span>
+</div>
+</body>
+</html>

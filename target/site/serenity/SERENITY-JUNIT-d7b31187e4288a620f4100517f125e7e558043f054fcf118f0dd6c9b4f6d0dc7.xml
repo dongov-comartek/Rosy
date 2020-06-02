@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="rosy.features.SmokeTest" skipped="0" tests="1" time="371.17" timestamp="2020-06-02 02:43:31"><testcase classname="rosy.features.SmokeTest" name="Show home screen after logged in with rosy account"><failure message="&#10;Expected: an element that is visible&#10;     but: no matching element found by xpath: //*[@text=&quot;a few seconds ago&quot;]" type="java.lang.AssertionError">
+Expected: an element that is visible
+     but: no matching element found by xpath: //*[@text="a few seconds ago"]</failure><system-err>
+Expected: an element that is visible
+     but: no matching element found by xpath: //*[@text="a few seconds ago"]&#13;
+rosy.tasks.SaveStory.performAs(SaveStory.java:20)&#13;
+rosy.features.SmokeTest.show_home_screen_after_logged_in_with_rosy_account(SmokeTest.java:156)&#13;
+</system-err></testcase></testsuite>
